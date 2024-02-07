@@ -9,6 +9,13 @@ left: 560px;}
 
 
 h1{text-align: center;color: white;font-size: 64px;font-family: 'M PLUS Rounded 1c', sans-serif;}
+h1::before{content: url(https://i.postimg.cc/ncV80Km8/free-icon-brazil-630591.png);
+    margin: 5px;
+    }
+
+
+h1::after{content: url(https://i.postimg.cc/4yJ02Zmv/free-icon-location-14063270.png);
+   margin: 25px;}
 
 p{font-family: 'M PLUS Rounded 1c', sans-serif;font-size: 25px;color: white;text-align: center;}
 
@@ -20,3 +27,11 @@ footer a{color: white;background-color:#F7E678;text-decoration: none;padding: 25
 top:775px;border-radius: 100px;font-family: 'M PLUS Rounded 1c', sans-serif;width: 200px;text-align: center;font-size: 50px;left: 600px;}
 
 footer a:hover{background-color: #F3D408;transition: 1s;}
+
+.a{position: absolute;
+    top: 500px;
+ left: 150px;}
+
+ .b{position: absolute;
+     top: 500px;
+  left: 1175px;}
